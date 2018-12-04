@@ -1,22 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-            <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
-        <title>Brandon Wiggins: About</title>
-    </head>
-<body>
-    <header>
-    <div class="container">
-        <h1>Brandon Wiggins</h1>
-            </div>
-            <ul>
-                <li><a href="Index.html">About</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-    </div>
-</header>
-</body>
+    <html lang="en-us">
+        <head>
+            <meta charset="UTF-8">
+           <link rel="stylesheet" href="Assets/CSS/style.css">
+          <title>Brandon Wiggins</title>
 
-</html>
+        </head>
+    <!--This will be for the header and navigation bar-->
+    <header><h2>Brandon Wiggins</h2>
+        <nav>
+         <ul id="navbar">
+             <li><a href="Index.html">About</a></li>
+             <li><a href="Portfolio.html">Portfolio</a></li>
+             <li><a href="Contact.html">Contact</a></li>
+         </ul>
+        </nav>     
+</header>
+    <body>
+<div class="container">
+    <h2>Contact</h2>
+    <form action="action_page.php">
+        <!--this is for the name field in the contact form-->
+            <label for="name">Name</label>
+            <input type="text" id="name" name="fullname" placeholder="Full Name">
+        <!--this is fot the email field in the contact form-->
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your Email">
+        <!--this is for the message box in the contact form-->
+            <label for="message">Message</label>
+            <textarea id="message" name="message" style="height:200px"></textarea>
+        <!--this will be the submit button-->
+            <input type="submit" value="Submit">
+
+
+
+    
+
+        
+          
+    </form>
+
+                </div>
+              
+              </body>       
+    </html>
+    
