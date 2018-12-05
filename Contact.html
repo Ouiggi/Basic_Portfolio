@@ -10,31 +10,41 @@
     <header><h1>Brandon Wiggins</h1>
         <nav>
          <ul id="navbar">
-             <li><a href="Index.html">About</a></li>
-             <li><a href="Portfolio.html">Portfolio</a></li>
-             <li><a href="Contact.html">Contact</a></li>
+             <li><a class="toolbar" href="Index.html">About</a></li>
+             <li><a class="toolbar" href="Portfolio.html">Portfolio</a></li>
+             <li><a class="toolbar" href="Contact.html">Contact</a></li>
          </ul>
         </nav>     
 </header>
 <br>
     <br>
+        <br>
+            <br>
     <body>
+        <!--this should be the container for the Contact form-->
 <div class="container">
-    <h2>Contact</h2>
-    <form action="action_page.php">
+    <h2 id="contact">Contact</h2>
+        <form action="action_page.php">
         <!--this is for the name field in the contact form-->
             <label for="name">Name</label>
             <input type="text" id="name" name="fullname" placeholder="Full Name">
+            <br>
         <!--this is fot the email field in the contact form-->
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="Your Email">
+            <br>
         <!--this is for the message box in the contact form-->
             <label for="message">Message</label>
             <textarea id="message" name="message" style="height:200px"></textarea>
+            <br>
         <!--this will be the submit button-->
             <input type="submit" value="Submit" class=button>
-    </form>
+        </form>
 </div>
+<br>
+    <br>
+        <br>
+            <br>
               
     </body> 
 <!--This is wher I'll put my copyright information-->
