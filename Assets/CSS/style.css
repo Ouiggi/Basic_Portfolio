@@ -1,0 +1,64 @@
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+}
+li a:hover {
+    background-color: #dddddd
+}
+li a {
+    text-decoration: none;
+    display: block; 
+    float: left;
+    color: #777777;
+}
+ul {
+    list-style-type: none;
+    text-align: right; 
+    margin: 5px; 
+    padding: 5px; 
+    width: 60px; 
+    overflow: hidden;
+    display: inline;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+}
+header {
+    border: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body {
+    border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    width: 960px 
+}
+footer {
+    background-color: #666666;
+    color: #dddddd;
+    text-align: center;
+    border-top: 5px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+}
+ html {
+    background-image: url(../../Assets/Images/dust_scratches.png)
+}
+#button {
+    color: #4aaaa5;
+}
+.button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+h2, p, ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777
+}
