@@ -39,6 +39,7 @@ header {
     background-color: #ffffff
 }
 body {
+    margin: 0;
 }
 footer {
     position: fixed;
@@ -81,7 +82,8 @@ input[type=text], select, textarea {
 }h2 {
     color: #4aaaa5
 }
-.container {border: 1px;
+.container {
+    border: 1px;
     border-style: solid;
     border-color: #dddddd;
     background-color: #ffffff;
