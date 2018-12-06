@@ -13,7 +13,7 @@ h1 {
     border-top-right-radius: 4px;
 }
 li a:hover {
-    background-color: #dddddd
+    background-color: #dddddd;
 }
 li a {
     text-decoration: none;
@@ -30,6 +30,8 @@ li a {
 }
 
 ul {
+    content: " | ";
+    padding: 0 10px;
     list-style-type: none; 
     display: inline;
 }
@@ -44,6 +46,7 @@ header {
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
+    box-shadow: 0 5px 10px lightgray;
 }
 
 footer {
@@ -54,14 +57,14 @@ footer {
     background-color: #666666;
     color: #dddddd;
     text-align: center;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     bottom: 0;
     font-size: 10px;
 }
 
 html {
     width: 1280;
-    background-image: url(../../Assets/Images/dust_scratches.png);
+    background-image: url(../../Assets/Images/topography.png);
     margin-left: 0;
 }
 
@@ -78,7 +81,8 @@ body {
 }
 
 .button:hover {
-    background-color: #2e6d6a
+    background-color: #2e6d6a;
+    box-shadow: 0 5px 10px lightgray;
 }
 
 h2, p, form {
@@ -97,6 +101,7 @@ input[type=text], select, textarea {
 }
 
 h2 {
+    font: bold;
     margin: 0 auto;
     font-size: 32px;
     color: #4aaaa5;
@@ -104,9 +109,11 @@ h2 {
     border-bottom: #ccc 2px solid;
 }
 img {
+    text-align: center;
     border-radius: 4px;
     float: left;
     margin: 10px;
+    box-shadow: 0 5px 10px grey;
 }
 .content {
     overflow: auto;
@@ -121,6 +128,7 @@ img {
     margin: 0 auto;
     position: relative;
     top: 30px;
+    box-shadow: 0 5px 10px lightgray;
 }
 
 .aboutme {
