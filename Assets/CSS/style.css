@@ -1,27 +1,32 @@
+/*this is to make the boxes exaclty the width i want including the borders*/
 * {
     box-sizing: border-box
 }
+/*this changed the location, color, and style of my h1*/
 h1 {
+    position: relative;
     background-color: #4aaaa5;
     color: #ffffff;
     float: left;
     margin-bottom: 0;
-    margin-left: 30px;
+    left: 100px;
     text-align: center;
     padding: 5px 15px 5px 15px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
+/*adds a hover effect for my nav bar*/
 li a:hover {
     background-color: #dddddd;
 }
+/*formats my list to become a nav bar*/
 li a {
     text-decoration: none;
     margin-block-end: 3px;
     float: right;
     color: #777777;
 }
-
+/*modifies my list to be located where i want it*/
 .toolbar {
     padding: 8px;
     background-color: #ffffff;
@@ -29,14 +34,12 @@ li a {
     position: relative;
     right: 145px;
 }
-
+/*most likely redundant but further modifies the nave bar*/
 ul {
-    content: " | ";
-    padding: 0 10px;
     list-style-type: none; 
     display: inline;
 }
-
+/*creates and styles the header bar*/
 header {
     z-index: 2;
     position: relative;
@@ -52,7 +55,7 @@ header {
     background-color: #ffffff;
     box-shadow: 0 5px 10px lightgray;
 }
-
+/*creates and styles the footer and fixes its location*/
 footer {
     z-index: 1;
     position: fixed;
@@ -65,17 +68,17 @@ footer {
     bottom: 0;
     font-size: 8px;
 }
-
+/*positions entire background and adds the subtle texture*/
 html {
     width: 1280;
     background-image: url(../../Assets/Images/topography.png);
     margin-left: 0;
 }
-
+/*removed gap on the left of the full page*/
 body {
     margin-left: 0;
 }
-
+/*styles the submit button*/
 .button {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -83,22 +86,22 @@ body {
     border: none;
     border-radius: 4px;
 }
-
+/*added a hover effect for the submit button*/
 .button:hover {
     background-color: #2e6d6a;
 }
-
+/*created a click effect for the nav bar buttons*/
 .toolbar:active {
     background-color: #e7e6e6;
     box-shadow: 0 3px 5px gray;
     transform: translateY(2px);
   }
-
+/*styled the fonts for these sections*/
 h2, p, form {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777
 }
-
+/*formats the form and layout, i still need to adjust this*/
 input[type=text], select, textarea {
     width: 60%;
     padding: 12px;  
@@ -108,7 +111,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px;
 }
-
+/*styles h2 on all pages*/
 h2 {
     font: bold;
     margin: 0 auto;
@@ -117,6 +120,7 @@ h2 {
     width: 90%;
     border-bottom: #ccc 2px solid;
 }
+/*styles all img boxes*/
 img {
     text-align: center;
     border-radius: 4px;
@@ -124,6 +128,7 @@ img {
     margin: 10px;
     box-shadow: 0 5px 10px grey;
 }
+/*styles and positions content boxes*/
 .content {
     overflow: auto;
     z-index: 1;
@@ -138,7 +143,7 @@ img {
     position: relative;
     box-shadow: 0 5px 10px lightgray;
 }
-
+/*adjusted the location of the about me paragraphs*/
 .aboutme {
     width: 70%;
     float: left;
